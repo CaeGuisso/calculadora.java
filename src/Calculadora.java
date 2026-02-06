@@ -35,7 +35,7 @@ public class Calculadora {
             System.out.println("Resultado: " + soma);
         }
 
-        // DIVISAO
+        // SUBTRACAO
 
         else if (opcao.equals("2")) {
             System.out.println("====Calculadora do Guisso====");
@@ -83,7 +83,7 @@ public class Calculadora {
             Double multiplicacao3 = Double.parseDouble(multiplicacao1);
             Double multiplicacao4 = Double.parseDouble(mutiplicacao2);
 
-            var multiplicacao = multiplicacao3 - multiplicacao4;
+            var multiplicacao = multiplicacao3 * multiplicacao4;
 
             System.out.println("Resultado: " + multiplicacao);
             
