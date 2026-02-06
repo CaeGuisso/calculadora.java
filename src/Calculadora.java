@@ -88,5 +88,7 @@ public class Calculadora {
             System.out.println("Resultado: " + multiplicacao);
             
         }
+
+        numeros.close();
     }
 }
